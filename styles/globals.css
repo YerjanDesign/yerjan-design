@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: azonix;
+  src: url('./Azonix.otf') format("opentype");
+}
+
+:root {
+  --border-radius: 5px;
+  --box-shadow: 10px rgba(0, 0, 0, 0.5);
+}
+
+/* @keyframes logo-hover{
+  0% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+} */
+
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  text-decoration: none;
+  font-family: Roboto;
+  color: #000;
+  margin: 0
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  font-family: azonix;
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+a.active {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+
+
+a.notFound {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  color: #5F9ABF;
+  text-decoration: none;
+}
+
+.st0 {
+  fill: none;
+  stroke: #808080;
+  stroke-width: 2.4057;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 12.0287;
+  stroke-miterlimit: 10;
+}
