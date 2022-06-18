@@ -62,7 +62,7 @@ const Navbar = () => {
                         <Link href='/'><a style={{ display: 'flex', alignItems: 'center' }}>
                             <Box display='flex' sx={{ alignItems: 'center', width: { xs: '40px', md: '46px' } }}>
                                 <motion.div
-                                    style={{ display: 'flex', alignItems: 'center' }}
+                                    style={{ display: 'flex', alignItems: 'center', transformOrigin: 'center' }}
                                     initial={router.pathname == "/" ? { scale: 8, x: '47vw', y: '40vh', rotate: -360 } : {}}
                                     animate={{ scale: 1, x: 0, y: 0, rotate: 0 }}
                                     transition={{ delay: 1, duration: 1 }}
